@@ -1,17 +1,17 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# scan1 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20260927_145202-V72_144D_137S_Tuned_new\c001r011\c001r011_Registration.log"
-# scan2 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20260928_174944-V69_144D_138S_Tuned\c001r011\c001r011_Registration.log"
-# scan3 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261003_023038-V72_144D_137S_Tuned_TRIM\c001r011\c001r011_Registration.log"
-# scan4 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261004_052616-V72_144D_137S_Tuned_TRIM\c001r011\c001r011_Registration.log"
+scan1 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20260927_145202-V72_144D_137S_Tuned_new\c001r011\c001r011_Registration.log"
+scan2 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20260928_174944-V69_144D_138S_Tuned\c001r011\c001r011_Registration.log"
+scan3 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261003_023038-V72_144D_137S_Tuned_TRIM\c001r011\c001r011_Registration.log"
+scan4 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261004_052616-V72_144D_137S_Tuned_TRIM\c001r011\c001r011_Registration.log"
 scan5 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261022_160219-V69_144D_138S_Tuned\c005r017\c005r017_Registration.log"
 scan6 = r"N:\eProbe_Output\Recipes_Data\X80C\EMR\tst-20261028_164630-V69_144D_138S_150DT_Tuned\c005r017\c005r017_Registration.log"
 
-# df1 = pd.read_csv(scan1, sep='\t')
-# df2 = pd.read_csv(scan2, sep='\t')
-# df3 = pd.read_csv(scan3, sep='\t')
-# df4 = pd.read_csv(scan4, sep='\t')
+df1 = pd.read_csv(scan1, sep='\t')
+df2 = pd.read_csv(scan2, sep='\t')
+df3 = pd.read_csv(scan3, sep='\t')
+df4 = pd.read_csv(scan4, sep='\t')
 df5 = pd.read_csv(scan5, sep='\t')
 df6 = pd.read_csv(scan6, sep='\t')
 #print(df.head())
